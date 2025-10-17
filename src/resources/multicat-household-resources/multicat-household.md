@@ -9,5 +9,5 @@ links:
   - text: "Cat relationship dynamics (Youtube)"
     url: "https://youtu.be/55pmHeYwN4s"
   - text: "Cats Living together (PDF)"
-    url: "https://www.cats.org.uk/media/1022/eg11_cats_living_together.pdf"
+    url: "https://www.cats.org.uk/media/bhlj1ntp/cats-living-together-2025.pdf"
 ---
