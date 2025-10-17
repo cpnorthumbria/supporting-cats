@@ -1,0 +1,26 @@
+---
+layout: base.njk
+---
+
+<div class="container">
+  <h2 class="display-6 fw-lighter py-4">{{ title }}</h2>
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+  {% set items = collections[category] | sort(attribute="data.order") %}
+  {% for item in items if item.url != page.url %}
+    <div class="col-lg-6 col-md-12 mb-4">
+      <div class="card h-100">
+        <div class="card-header fs-5 fw-bold text-bg-dark">
+        {{ item.data.title }}
+      </div>
+      <div class="list-group">
+        {% for link in item.data.links %}
+          <a href="{{ link.url }}" target="_blank" class="list-group-item list-group-item-action text-dark text-decoration-none">
+            {{ link.text }} <i class="bi bi-box-arrow-up-right fs-6 me-1"></i>
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+    </div>
+  {% endfor %}
+</div>
+</div>

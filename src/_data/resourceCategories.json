@@ -1,0 +1,11 @@
+[
+  { "title": "Behaviour", "slug": "behaviour-resources" },
+  { "title": "Health", "slug": "health-resources" },
+  { "title": "Financial", "slug": "financial-resources" },
+  { "title": "Housing", "slug": "housing-resources" },
+  { "title": "Multi-cat household", "slug": "multicat-household-resources" },
+  { "title": "Owner health or death", "slug": "owner-health-death-resources" },
+  { "title": "Situational change", "slug": "situational-change-resources" },
+  { "title": "Unwanted litter", "slug": "unwanted-litter-resources" },
+  { "title": "Stray cat", "slug": "stray-cat-resources" }
+]

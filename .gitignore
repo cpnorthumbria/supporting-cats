@@ -1,0 +1,47 @@
+# Node dependencies
+node_modules/
+
+# Build output
+dist/
+_out/
+
+# Eleventy cache (if present)
+.cache/
+
+# Environment files
+.env
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Temporary/Cache
+.parcel-cache/
+.sass-cache/
+coverage/
+.nyc_output/
+
+# Archives
+*.tgz
+*.zip
+
+# Swap files
+*~
+
+# Optional: lockfiles are usually committed for reproducible installs
+# (leave package-lock.json / pnpm-lock.yaml / yarn.lock in the repo)

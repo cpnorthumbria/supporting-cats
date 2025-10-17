@@ -1,0 +1,11 @@
+[
+  { "name": "Behaviour", "slug": "behaviour" },
+  { "name": "Health", "slug": "health" },
+  { "name": "Financial", "slug": "financial" },
+  { "name": "Housing", "slug": "housing" },
+  { "name": "Multi-cat household", "slug": "multicat-household" },
+  { "name": "Owner health or death", "slug": "owner-health-death" },
+  { "name": "Situational change", "slug": "situational-change" },
+  { "name": "Unwanted litter", "slug": "unwanted-litter" },
+  { "name": "Stray cat", "slug": "stray-cat" }
+]

@@ -1,0 +1,54 @@
+---
+layout: base.njk
+pagination:
+  data: resourceCategories
+  size: 1
+  alias: category
+permalink: "/resources/{{ category.slug | replace('-resources','') }}/"
+eleventyComputed:
+  title: "{{ category.title }}"
+---
+
+<div class="container">
+  <h2 class="display-6 fw-lighter py-4">{{ category.title }}</h2>
+
+  {% set items = [] %}
+  {% for item in collections.resources %}
+    {# Include an item when: 1) it has tags that include the category slug, or
+       2) the item lives in a folder whose path contains the category slug
+       This lets you omit repeating the tag in every markdown file inside the
+       category folder. #}
+    {% set includeItem = false %}
+    {% if item.data.tags and category.slug in item.data.tags %}
+      {% set includeItem = true %}
+    {% elif item.inputPath and (category.slug in item.inputPath) %}
+      {% set includeItem = true %}
+    {% elif item.filePathStem and (category.slug in item.filePathStem) %}
+      {% set includeItem = true %}
+    {% endif %}
+
+    {% if includeItem %}
+      {% set items = items.concat(item) %}
+    {% endif %}
+  {% endfor %}
+  {% set items = items | sort(attribute="data.order") %}
+
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    {% for item in items %}
+      <div class="col-lg-6 col-md-12 mb-4">
+        <div class="card h-100">
+          <div class="card-header fs-5 fw-bold text-bg-dark">
+            {{ item.data.title }}
+          </div>
+          <div class="list-group">
+            {% for link in item.data.links %}
+              <a href="{{ link.url }}" target="_blank" class="list-group-item list-group-item-action text-dark text-decoration-none">
+                {{ link.text }} <i class="bi bi-box-arrow-up-right fs-6 me-1"></i>
+              </a>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
