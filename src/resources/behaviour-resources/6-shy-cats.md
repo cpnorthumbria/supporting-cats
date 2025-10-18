@@ -1,6 +1,6 @@
 ---
 title: Shy cats
-order: 9
+order: 6
 links:
   - text: "Shy cats (Web)"
     url: "http://www.cats.org.uk/help-and-advice/cat-behaviour/shy-cats"

@@ -1,6 +1,6 @@
 ---
 title: External Resources - Other
-order: 14
+order: 10
 links:
   - text: "Over-grooming (iCatCare) (Web)"
     url: "https://icatcare.org/articles/over-grooming-in-cats"

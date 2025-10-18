@@ -1,6 +1,6 @@
 ---
 title: Feeding / enrichment
-order: 8
+order: 7
 links:
   - text: "Make eating time fun! (PDF)"
     url: "https://www.cats.org.uk/uploads/documents/The_Cat_Mag_extracts/Behaviour_-_make_eating_time_fun.pdf"

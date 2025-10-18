@@ -1,6 +1,6 @@
 ---
 title: External Resources - General Behaviour
-order: 13
+order: 9
 links:
   - text: "Association of Pet Behaviour Counsellors (APBC)"
     url: "https://www.apbc.org.uk/"
