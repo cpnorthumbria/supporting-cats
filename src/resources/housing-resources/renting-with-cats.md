@@ -1,11 +1,13 @@
 ---
-title: Current landlord doesn't allow pets
+title: Renting with cats / landlord and tenant info
 order: 1
 links:
   - text: "Information for social housing tenants (Web)"
     url: "http://www.cats.org.uk/what-we-do/campaigning/purrfectlandlords/social-tenant"
   - text: "Information for private tenants (Web)"
     url: "http://www.cats.org.uk/what-we-do/campaigning/purrfectlandlords/private-tenants"
+  - text: "Information for private landlords (Web)"
+    url: "http://www.cats.org.uk/what-we-do/campaigning/purrfectlandlords/private-landlords"
   - text: "Purrfect Landlords - Private landlords (PDF)"
     url: "https://www.cats.org.uk/media/1569/com_3221-purrfect-landlords-private-landlords-leaflet_highres.pdf"
   - text: "Purrfect landlords - Private tenants (PDF)"
@@ -16,4 +18,6 @@ links:
     url: "https://youtu.be/eZPU81lDW0U"
   - text: "Purrfect landlords - advice to landlords and tenants (Youtube)"
     url: "https://youtu.be/SVTkYJ4SYJ8"
+  - text: "Purrfect landlords - cats and rented housing (Youtube)"
+    url: "https://youtu.be/7fC2_HLKT0c"
 ---

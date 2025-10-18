@@ -6,6 +6,6 @@ links:
     url: "https://www.cats.org.uk/help-and-advice/health/ticks"
   - text: "What to do if your cat has fleas (Web)"
     url: "http://www.cats.org.uk/help-and-advice/health/fleas"
-  - text: "Infectious Disease and Vaccination (PDF)"
-    url: "https://www.cats.org.uk/media/ggpm0q0j/infectious-diseases-and-vaccines-2025.pdf"
+  - text: "Fleas and other parasites (PDF)"
+    url: "https://www.cats.org.uk/media/mu1lt5da/fleas-2025.pdf"
 ---

@@ -1,6 +1,6 @@
 ---
 title: External resources
-order: 4
+order: 3
 links:
   - text: "Renting with cats (Cat Chat)"
     url: "https://www.catchat.org/index.php/renting-with-cats"
