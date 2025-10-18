@@ -1,6 +1,6 @@
 ---
 title: Spraying
-order: 8
+order: 7
 links:
   - text: "What is spraying and why do cats do it? (Web)"
     url: "https://www.cats.org.uk/help-and-advice/cat-behaviour/spraying"

@@ -1,6 +1,6 @@
 ---
 title: Defecation issue
-order: 6
+order: 5
 links:
   - text: "Why does my cat toilet outside of the tray? (Web)"
     url: "https://www.cats.org.uk/help-and-advice/cat-behaviour/toileting"

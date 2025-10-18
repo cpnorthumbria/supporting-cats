@@ -1,6 +1,6 @@
 ---
-title: Cat has not settled - no other pets
-order: 4
+title: Cat has not settled (no other pets)
+order: 3
 links:
   - text: "How to decipher your cat's body language (Web)"
     url: "https://www.cats.org.uk/help-and-advice/cat-behaviour/cat-body-language"

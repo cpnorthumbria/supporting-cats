@@ -1,5 +1,5 @@
 ---
-title: Upper respiratory infections
+title: Upper respiratory and related infections
 order: 5
 links:
   - text: "Cat flu (PDF)"

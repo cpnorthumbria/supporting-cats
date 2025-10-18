@@ -1,6 +1,6 @@
 ---
-title: Cat has not settled - other pets
-order: 5
+title: Cat has not settled (other pets)
+order: 4
 links:
   - text: "Getting another cat (Web)"
     url: "https://www.cats.org.uk/help-and-advice/cats-and-your-family/other-cats"
